@@ -1,0 +1,12 @@
+*.zip
+.idea
+.vscode
+*.rar
+*.7z
+*.tar
+*.gz
+*.jar
+temp
+tmp
+
+
