@@ -1,0 +1,5 @@
+#!/bin/bash
+cd /etc/systemd/system/docker.service.d
+mv bak/*.conf ./
+sudo systemctl daemon-reload
+sudo systemctl restart docker
