@@ -1,0 +1,1 @@
+docker run -p 6380:6380 -p 11181:11181 --name ledisdb ledisdb/ledisdb:latest 

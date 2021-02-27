@@ -1,0 +1,368 @@
+2020/01/09-03:00:13.728011 7faaaaed4700 RocksDB version: 5.13.3
+2020/01/09-03:00:13.728066 7faaaaed4700 Git sha rocksdb_build_git_sha:
+2020/01/09-03:00:13.728069 7faaaaed4700 Compile date Jun 11 2018
+2020/01/09-03:00:13.728072 7faaaaed4700 DB SUMMARY
+2020/01/09-03:00:13.728105 7faaaaed4700 CURRENT file:  CURRENT
+2020/01/09-03:00:13.728112 7faaaaed4700 MANIFEST file:  MANIFEST-000004 size: 152 Bytes
+2020/01/09-03:00:13.728115 7faaaaed4700 SST files in /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000000/000000000000000000/current dir, Total Num: 1, files: 000009.sst 
+2020/01/09-03:00:13.728118 7faaaaed4700 Write Ahead Log file in /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000000/000000000000000000/current: 
+2020/01/09-03:00:13.728120 7faaaaed4700                         Options.error_if_exists: 0
+2020/01/09-03:00:13.728122 7faaaaed4700                       Options.create_if_missing: 1
+2020/01/09-03:00:13.728123 7faaaaed4700                         Options.paranoid_checks: 1
+2020/01/09-03:00:13.728124 7faaaaed4700                                     Options.env: 0x7faac640af60
+2020/01/09-03:00:13.728126 7faaaaed4700                                Options.info_log: 0x7fab84002160
+2020/01/09-03:00:13.728127 7faaaaed4700                Options.max_file_opening_threads: 16
+2020/01/09-03:00:13.728128 7faaaaed4700                              Options.statistics: (nil)
+2020/01/09-03:00:13.728130 7faaaaed4700                               Options.use_fsync: 0
+2020/01/09-03:00:13.728131 7faaaaed4700                       Options.max_log_file_size: 0
+2020/01/09-03:00:13.728132 7faaaaed4700                  Options.max_manifest_file_size: 18446744073709551615
+2020/01/09-03:00:13.728134 7faaaaed4700                   Options.log_file_time_to_roll: 0
+2020/01/09-03:00:13.728135 7faaaaed4700                       Options.keep_log_file_num: 1000
+2020/01/09-03:00:13.728136 7faaaaed4700                    Options.recycle_log_file_num: 0
+2020/01/09-03:00:13.728137 7faaaaed4700                         Options.allow_fallocate: 1
+2020/01/09-03:00:13.728138 7faaaaed4700                        Options.allow_mmap_reads: 0
+2020/01/09-03:00:13.728140 7faaaaed4700                       Options.allow_mmap_writes: 0
+2020/01/09-03:00:13.728141 7faaaaed4700                        Options.use_direct_reads: 0
+2020/01/09-03:00:13.728142 7faaaaed4700                        Options.use_direct_io_for_flush_and_compaction: 0
+2020/01/09-03:00:13.728143 7faaaaed4700          Options.create_missing_column_families: 1
+2020/01/09-03:00:13.728145 7faaaaed4700                              Options.db_log_dir: 
+2020/01/09-03:00:13.728146 7faaaaed4700                                 Options.wal_dir: /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000000/000000000000000000/current
+2020/01/09-03:00:13.728147 7faaaaed4700                Options.table_cache_numshardbits: 6
+2020/01/09-03:00:13.728148 7faaaaed4700                      Options.max_subcompactions: 1
+2020/01/09-03:00:13.728150 7faaaaed4700                  Options.max_background_flushes: -1
+2020/01/09-03:00:13.728151 7faaaaed4700                         Options.WAL_ttl_seconds: 0
+2020/01/09-03:00:13.728152 7faaaaed4700                       Options.WAL_size_limit_MB: 0
+2020/01/09-03:00:13.728154 7faaaaed4700             Options.manifest_preallocation_size: 4194304
+2020/01/09-03:00:13.728155 7faaaaed4700                     Options.is_fd_close_on_exec: 1
+2020/01/09-03:00:13.728156 7faaaaed4700                   Options.advise_random_on_open: 1
+2020/01/09-03:00:13.728157 7faaaaed4700                    Options.db_write_buffer_size: 0
+2020/01/09-03:00:13.728159 7faaaaed4700                    Options.write_buffer_manager: 0x7fab8407e060
+2020/01/09-03:00:13.728160 7faaaaed4700         Options.access_hint_on_compaction_start: 1
+2020/01/09-03:00:13.728161 7faaaaed4700  Options.new_table_reader_for_compaction_inputs: 0
+2020/01/09-03:00:13.728162 7faaaaed4700           Options.random_access_max_buffer_size: 1048576
+2020/01/09-03:00:13.728164 7faaaaed4700                      Options.use_adaptive_mutex: 0
+2020/01/09-03:00:13.728165 7faaaaed4700                            Options.rate_limiter: (nil)
+2020/01/09-03:00:13.728176 7faaaaed4700     Options.sst_file_manager.rate_bytes_per_sec: 0
+2020/01/09-03:00:13.728178 7faaaaed4700                       Options.wal_recovery_mode: 2
+2020/01/09-03:00:13.728179 7faaaaed4700                  Options.enable_thread_tracking: 0
+2020/01/09-03:00:13.728180 7faaaaed4700                  Options.enable_pipelined_write: 0
+2020/01/09-03:00:13.728182 7faaaaed4700         Options.allow_concurrent_memtable_write: 1
+2020/01/09-03:00:13.728183 7faaaaed4700      Options.enable_write_thread_adaptive_yield: 1
+2020/01/09-03:00:13.728184 7faaaaed4700             Options.write_thread_max_yield_usec: 100
+2020/01/09-03:00:13.728185 7faaaaed4700            Options.write_thread_slow_yield_usec: 3
+2020/01/09-03:00:13.728187 7faaaaed4700                               Options.row_cache: None
+2020/01/09-03:00:13.728188 7faaaaed4700                              Options.wal_filter: None
+2020/01/09-03:00:13.728189 7faaaaed4700             Options.avoid_flush_during_recovery: 0
+2020/01/09-03:00:13.728190 7faaaaed4700             Options.allow_ingest_behind: 0
+2020/01/09-03:00:13.728192 7faaaaed4700             Options.preserve_deletes: 0
+2020/01/09-03:00:13.728193 7faaaaed4700             Options.two_write_queues: 0
+2020/01/09-03:00:13.728194 7faaaaed4700             Options.manual_wal_flush: 0
+2020/01/09-03:00:13.728196 7faaaaed4700             Options.max_background_jobs: 4
+2020/01/09-03:00:13.728197 7faaaaed4700             Options.max_background_compactions: -1
+2020/01/09-03:00:13.728198 7faaaaed4700             Options.avoid_flush_during_shutdown: 0
+2020/01/09-03:00:13.728200 7faaaaed4700           Options.writable_file_max_buffer_size: 1048576
+2020/01/09-03:00:13.728201 7faaaaed4700             Options.delayed_write_rate : 16777216
+2020/01/09-03:00:13.728202 7faaaaed4700             Options.max_total_wal_size: 0
+2020/01/09-03:00:13.728203 7faaaaed4700             Options.delete_obsolete_files_period_micros: 21600000000
+2020/01/09-03:00:13.728205 7faaaaed4700                   Options.stats_dump_period_sec: 600
+2020/01/09-03:00:13.728206 7faaaaed4700                          Options.max_open_files: -1
+2020/01/09-03:00:13.728207 7faaaaed4700                          Options.bytes_per_sync: 0
+2020/01/09-03:00:13.728208 7faaaaed4700                      Options.wal_bytes_per_sync: 0
+2020/01/09-03:00:13.728210 7faaaaed4700       Options.compaction_readahead_size: 0
+2020/01/09-03:00:13.728211 7faaaaed4700 Compression algorithms supported:
+2020/01/09-03:00:13.728212 7faaaaed4700 	kZSTDNotFinalCompression supported: 1
+2020/01/09-03:00:13.728214 7faaaaed4700 	kZSTD supported: 1
+2020/01/09-03:00:13.728216 7faaaaed4700 	kXpressCompression supported: 0
+2020/01/09-03:00:13.728217 7faaaaed4700 	kLZ4HCCompression supported: 1
+2020/01/09-03:00:13.728219 7faaaaed4700 	kLZ4Compression supported: 1
+2020/01/09-03:00:13.728220 7faaaaed4700 	kBZip2Compression supported: 1
+2020/01/09-03:00:13.728222 7faaaaed4700 	kZlibCompression supported: 1
+2020/01/09-03:00:13.728223 7faaaaed4700 	kSnappyCompression supported: 1
+2020/01/09-03:00:13.728225 7faaaaed4700 Fast CRC32 supported: Not supported on x86
+2020/01/09-03:00:13.838997 7faaaaed4700 [db/version_set.cc:3050] Recovering from manifest file: MANIFEST-000004
+2020/01/09-03:00:13.839188 7faaaaed4700 [db/column_family.cc:433] --------------- Options for column family [default]:
+2020/01/09-03:00:13.839197 7faaaaed4700               Options.comparator: leveldb.BytewiseComparator
+2020/01/09-03:00:13.839200 7faaaaed4700           Options.merge_operator: None
+2020/01/09-03:00:13.839203 7faaaaed4700        Options.compaction_filter: None
+2020/01/09-03:00:13.839205 7faaaaed4700        Options.compaction_filter_factory: None
+2020/01/09-03:00:13.839208 7faaaaed4700         Options.memtable_factory: SkipListFactory
+2020/01/09-03:00:13.839211 7faaaaed4700            Options.table_factory: BlockBasedTable
+2020/01/09-03:00:13.839274 7faaaaed4700            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0x7fab84087b20)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 0
+  no_block_cache: 0
+  block_cache: 0x7fab84087990
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 67108864
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: (nil)
+  persistent_cache: (nil)
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 0
+  enable_index_compression: 1
+2020/01/09-03:00:13.839305 7faaaaed4700        Options.write_buffer_size: 33554432
+2020/01/09-03:00:13.839309 7faaaaed4700  Options.max_write_buffer_number: 3
+2020/01/09-03:00:13.839313 7faaaaed4700          Options.compression: LZ4
+2020/01/09-03:00:13.839316 7faaaaed4700                  Options.bottommost_compression: Disabled
+2020/01/09-03:00:13.839318 7faaaaed4700       Options.prefix_extractor: nullptr
+2020/01/09-03:00:13.839321 7faaaaed4700   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2020/01/09-03:00:13.839323 7faaaaed4700             Options.num_levels: 7
+2020/01/09-03:00:13.839325 7faaaaed4700        Options.min_write_buffer_number_to_merge: 1
+2020/01/09-03:00:13.839327 7faaaaed4700     Options.max_write_buffer_number_to_maintain: 0
+2020/01/09-03:00:13.839329 7faaaaed4700            Options.compression_opts.window_bits: -14
+2020/01/09-03:00:13.839331 7faaaaed4700                  Options.compression_opts.level: 32767
+2020/01/09-03:00:13.839333 7faaaaed4700               Options.compression_opts.strategy: 0
+2020/01/09-03:00:13.839336 7faaaaed4700         Options.compression_opts.max_dict_bytes: 0
+2020/01/09-03:00:13.839338 7faaaaed4700      Options.level0_file_num_compaction_trigger: 4
+2020/01/09-03:00:13.839341 7faaaaed4700          Options.level0_slowdown_writes_trigger: 20
+2020/01/09-03:00:13.839343 7faaaaed4700              Options.level0_stop_writes_trigger: 36
+2020/01/09-03:00:13.839345 7faaaaed4700                   Options.target_file_size_base: 67108864
+2020/01/09-03:00:13.839348 7faaaaed4700             Options.target_file_size_multiplier: 1
+2020/01/09-03:00:13.839350 7faaaaed4700                Options.max_bytes_for_level_base: 268435456
+2020/01/09-03:00:13.839352 7faaaaed4700 Options.level_compaction_dynamic_level_bytes: 0
+2020/01/09-03:00:13.839355 7faaaaed4700          Options.max_bytes_for_level_multiplier: 10.000000
+2020/01/09-03:00:13.839360 7faaaaed4700 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2020/01/09-03:00:13.839363 7faaaaed4700 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2020/01/09-03:00:13.839365 7faaaaed4700 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2020/01/09-03:00:13.839367 7faaaaed4700 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2020/01/09-03:00:13.839369 7faaaaed4700 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2020/01/09-03:00:13.839372 7faaaaed4700 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2020/01/09-03:00:13.839373 7faaaaed4700 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2020/01/09-03:00:13.839376 7faaaaed4700       Options.max_sequential_skip_in_iterations: 8
+2020/01/09-03:00:13.839378 7faaaaed4700                    Options.max_compaction_bytes: 1677721600
+2020/01/09-03:00:13.839380 7faaaaed4700                        Options.arena_block_size: 4194304
+2020/01/09-03:00:13.839383 7faaaaed4700   Options.soft_pending_compaction_bytes_limit: 68719476736
+2020/01/09-03:00:13.839386 7faaaaed4700   Options.hard_pending_compaction_bytes_limit: 274877906944
+2020/01/09-03:00:13.839388 7faaaaed4700       Options.rate_limit_delay_max_milliseconds: 100
+2020/01/09-03:00:13.839390 7faaaaed4700                Options.disable_auto_compactions: 0
+2020/01/09-03:00:13.839393 7faaaaed4700                        Options.compaction_style: kCompactionStyleUniversal
+2020/01/09-03:00:13.839412 7faaaaed4700                          Options.compaction_pri: kByCompensatedSize
+2020/01/09-03:00:13.839416 7faaaaed4700 Options.compaction_options_universal.size_ratio: 1
+2020/01/09-03:00:13.839419 7faaaaed4700 Options.compaction_options_universal.min_merge_width: 2
+2020/01/09-03:00:13.839421 7faaaaed4700 Options.compaction_options_universal.max_merge_width: 4294967295
+2020/01/09-03:00:13.839424 7faaaaed4700 Options.compaction_options_universal.max_size_amplification_percent: 200
+2020/01/09-03:00:13.839426 7faaaaed4700 Options.compaction_options_universal.compression_size_percent: -1
+2020/01/09-03:00:13.839429 7faaaaed4700 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2020/01/09-03:00:13.839432 7faaaaed4700 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2020/01/09-03:00:13.839435 7faaaaed4700 Options.compaction_options_fifo.allow_compaction: 0
+2020/01/09-03:00:13.839437 7faaaaed4700 Options.compaction_options_fifo.ttl: 0
+2020/01/09-03:00:13.839440 7faaaaed4700                   Options.table_properties_collectors: 
+2020/01/09-03:00:13.839442 7faaaaed4700                   Options.inplace_update_support: 0
+2020/01/09-03:00:13.839444 7faaaaed4700                 Options.inplace_update_num_locks: 10000
+2020/01/09-03:00:13.839446 7faaaaed4700               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2020/01/09-03:00:13.839450 7faaaaed4700   Options.memtable_huge_page_size: 0
+2020/01/09-03:00:13.839452 7faaaaed4700                           Options.bloom_locality: 0
+2020/01/09-03:00:13.839454 7faaaaed4700                    Options.max_successive_merges: 0
+2020/01/09-03:00:13.839456 7faaaaed4700                Options.optimize_filters_for_hits: 0
+2020/01/09-03:00:13.839458 7faaaaed4700                Options.paranoid_file_checks: 0
+2020/01/09-03:00:13.839460 7faaaaed4700                Options.force_consistency_checks: 0
+2020/01/09-03:00:13.839463 7faaaaed4700                Options.report_bg_io_stats: 0
+2020/01/09-03:00:13.839587 7faaaaed4700 [db/column_family.cc:433] --------------- Options for column family [.meta]:
+2020/01/09-03:00:13.839595 7faaaaed4700               Options.comparator: leveldb.BytewiseComparator
+2020/01/09-03:00:13.839598 7faaaaed4700           Options.merge_operator: None
+2020/01/09-03:00:13.839601 7faaaaed4700        Options.compaction_filter: None
+2020/01/09-03:00:13.839604 7faaaaed4700        Options.compaction_filter_factory: None
+2020/01/09-03:00:13.839606 7faaaaed4700         Options.memtable_factory: SkipListFactory
+2020/01/09-03:00:13.839609 7faaaaed4700            Options.table_factory: BlockBasedTable
+2020/01/09-03:00:13.839645 7faaaaed4700            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0x7fab84087b20)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 0
+  no_block_cache: 0
+  block_cache: 0x7fab84087990
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 67108864
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: (nil)
+  persistent_cache: (nil)
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 0
+  enable_index_compression: 1
+2020/01/09-03:00:13.839650 7faaaaed4700        Options.write_buffer_size: 33554432
+2020/01/09-03:00:13.839653 7faaaaed4700  Options.max_write_buffer_number: 3
+2020/01/09-03:00:13.839656 7faaaaed4700          Options.compression: LZ4
+2020/01/09-03:00:13.839658 7faaaaed4700                  Options.bottommost_compression: Disabled
+2020/01/09-03:00:13.839661 7faaaaed4700       Options.prefix_extractor: nullptr
+2020/01/09-03:00:13.839664 7faaaaed4700   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2020/01/09-03:00:13.839683 7faaaaed4700             Options.num_levels: 7
+2020/01/09-03:00:13.839686 7faaaaed4700        Options.min_write_buffer_number_to_merge: 1
+2020/01/09-03:00:13.839687 7faaaaed4700     Options.max_write_buffer_number_to_maintain: 0
+2020/01/09-03:00:13.839689 7faaaaed4700            Options.compression_opts.window_bits: -14
+2020/01/09-03:00:13.839690 7faaaaed4700                  Options.compression_opts.level: 32767
+2020/01/09-03:00:13.839691 7faaaaed4700               Options.compression_opts.strategy: 0
+2020/01/09-03:00:13.839692 7faaaaed4700         Options.compression_opts.max_dict_bytes: 0
+2020/01/09-03:00:13.839694 7faaaaed4700      Options.level0_file_num_compaction_trigger: 4
+2020/01/09-03:00:13.839695 7faaaaed4700          Options.level0_slowdown_writes_trigger: 20
+2020/01/09-03:00:13.839696 7faaaaed4700              Options.level0_stop_writes_trigger: 36
+2020/01/09-03:00:13.839697 7faaaaed4700                   Options.target_file_size_base: 67108864
+2020/01/09-03:00:13.839699 7faaaaed4700             Options.target_file_size_multiplier: 1
+2020/01/09-03:00:13.839700 7faaaaed4700                Options.max_bytes_for_level_base: 268435456
+2020/01/09-03:00:13.839701 7faaaaed4700 Options.level_compaction_dynamic_level_bytes: 0
+2020/01/09-03:00:13.839702 7faaaaed4700          Options.max_bytes_for_level_multiplier: 10.000000
+2020/01/09-03:00:13.839706 7faaaaed4700 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2020/01/09-03:00:13.839709 7faaaaed4700 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2020/01/09-03:00:13.839712 7faaaaed4700 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2020/01/09-03:00:13.839715 7faaaaed4700 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2020/01/09-03:00:13.839717 7faaaaed4700 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2020/01/09-03:00:13.839720 7faaaaed4700 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2020/01/09-03:00:13.839723 7faaaaed4700 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2020/01/09-03:00:13.839725 7faaaaed4700       Options.max_sequential_skip_in_iterations: 8
+2020/01/09-03:00:13.839727 7faaaaed4700                    Options.max_compaction_bytes: 1677721600
+2020/01/09-03:00:13.839729 7faaaaed4700                        Options.arena_block_size: 4194304
+2020/01/09-03:00:13.839732 7faaaaed4700   Options.soft_pending_compaction_bytes_limit: 68719476736
+2020/01/09-03:00:13.839734 7faaaaed4700   Options.hard_pending_compaction_bytes_limit: 274877906944
+2020/01/09-03:00:13.839737 7faaaaed4700       Options.rate_limit_delay_max_milliseconds: 100
+2020/01/09-03:00:13.839740 7faaaaed4700                Options.disable_auto_compactions: 0
+2020/01/09-03:00:13.839743 7faaaaed4700                        Options.compaction_style: kCompactionStyleUniversal
+2020/01/09-03:00:13.839747 7faaaaed4700                          Options.compaction_pri: kByCompensatedSize
+2020/01/09-03:00:13.839749 7faaaaed4700 Options.compaction_options_universal.size_ratio: 1
+2020/01/09-03:00:13.839752 7faaaaed4700 Options.compaction_options_universal.min_merge_width: 2
+2020/01/09-03:00:13.839755 7faaaaed4700 Options.compaction_options_universal.max_merge_width: 4294967295
+2020/01/09-03:00:13.839758 7faaaaed4700 Options.compaction_options_universal.max_size_amplification_percent: 200
+2020/01/09-03:00:13.839760 7faaaaed4700 Options.compaction_options_universal.compression_size_percent: -1
+2020/01/09-03:00:13.839763 7faaaaed4700 Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2020/01/09-03:00:13.839766 7faaaaed4700 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2020/01/09-03:00:13.839768 7faaaaed4700 Options.compaction_options_fifo.allow_compaction: 0
+2020/01/09-03:00:13.839770 7faaaaed4700 Options.compaction_options_fifo.ttl: 0
+2020/01/09-03:00:13.839773 7faaaaed4700                   Options.table_properties_collectors: 
+2020/01/09-03:00:13.839776 7faaaaed4700                   Options.inplace_update_support: 0
+2020/01/09-03:00:13.839793 7faaaaed4700                 Options.inplace_update_num_locks: 10000
+2020/01/09-03:00:13.839798 7faaaaed4700               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2020/01/09-03:00:13.839802 7faaaaed4700   Options.memtable_huge_page_size: 0
+2020/01/09-03:00:13.839805 7faaaaed4700                           Options.bloom_locality: 0
+2020/01/09-03:00:13.839807 7faaaaed4700                    Options.max_successive_merges: 0
+2020/01/09-03:00:13.839809 7faaaaed4700                Options.optimize_filters_for_hits: 0
+2020/01/09-03:00:13.839812 7faaaaed4700                Options.paranoid_file_checks: 0
+2020/01/09-03:00:13.839814 7faaaaed4700                Options.force_consistency_checks: 0
+2020/01/09-03:00:13.839816 7faaaaed4700                Options.report_bg_io_stats: 0
+2020/01/09-03:00:13.841349 7faaaaed4700 [db/version_set.cc:3316] Recovered from manifest file:/pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000000/000000000000000000/current/MANIFEST-000004 succeeded,manifest_file_number is 4, next_file_number is 11, last_sequence is 3, log_number is 0,prev_log_number is 0,max_column_family is 1
+2020/01/09-03:00:13.841364 7faaaaed4700 [db/version_set.cc:3324] Column family [default] (ID 0), log number is 3
+2020/01/09-03:00:13.841368 7faaaaed4700 [db/version_set.cc:3324] Column family [.meta] (ID 1), log number is 3
+2020/01/09-03:00:14.123965 7faaaaed4700 [db/db_impl_open.cc:1188] DB pointer 0x7fab84086940
+2020/01/09-03:15:14.669685 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000000/000000000000000000/checkpoints/befdda5d-cdd1-41fa-9868-7f005f385aee
+2020/01/09-03:15:14.673254 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000000/000000000000000000/checkpoints/befdda5d-cdd1-41fa-9868-7f005f385aee.tmp
+2020/01/09-03:15:14.673390 7faaa9fc5700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/01/09-03:15:14.674063 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:87] Hard Linking /000009.sst
+2020/01/09-03:15:14.674149 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000004
+2020/01/09-03:15:14.679229 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000013
+2020/01/09-03:15:14.687684 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/01/09-03:15:14.687904 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/01/09-03:15:14.687915 7faaa9fc5700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/01/09-03:15:14.696928 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/01/09-03:15:14.696945 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 3
+2020/01/09-03:30:14.664931 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000000/000000000000000000/checkpoints/c69983a9-9e0a-4bdb-9972-457e78a66900
+2020/01/09-03:30:14.664981 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000000/000000000000000000/checkpoints/c69983a9-9e0a-4bdb-9972-457e78a66900.tmp
+2020/01/09-03:30:14.665071 7faaa9fc5700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/01/09-03:30:14.665281 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:87] Hard Linking /000009.sst
+2020/01/09-03:30:14.665307 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000004
+2020/01/09-03:30:14.673860 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000013
+2020/01/09-03:30:14.678518 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/01/09-03:30:14.678699 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/01/09-03:30:14.678707 7faaa9fc5700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/01/09-03:30:14.682705 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/01/09-03:30:14.682718 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 3
+2020/01/09-03:45:14.665069 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000000/000000000000000000/checkpoints/b003ba30-d6b5-4e31-9c2e-33dcc60ebbe4
+2020/01/09-03:45:14.665125 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000000/000000000000000000/checkpoints/b003ba30-d6b5-4e31-9c2e-33dcc60ebbe4.tmp
+2020/01/09-03:45:14.665241 7faaa9fc5700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/01/09-03:45:14.666102 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:87] Hard Linking /000009.sst
+2020/01/09-03:45:14.666155 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000004
+2020/01/09-03:45:14.670952 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000013
+2020/01/09-03:45:14.678764 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/01/09-03:45:14.678978 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/01/09-03:45:14.678989 7faaa9fc5700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/01/09-03:45:14.683110 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/01/09-03:45:14.683131 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 3
+2020/01/09-04:00:14.664937 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000000/000000000000000000/checkpoints/0979f6df-5ff7-46b6-afdd-9dabf5b659d5
+2020/01/09-04:00:14.664979 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000000/000000000000000000/checkpoints/0979f6df-5ff7-46b6-afdd-9dabf5b659d5.tmp
+2020/01/09-04:00:14.665045 7faaa9fc5700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/01/09-04:00:14.665257 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:87] Hard Linking /000009.sst
+2020/01/09-04:00:14.665288 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000004
+2020/01/09-04:00:14.671267 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000013
+2020/01/09-04:00:14.679010 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/01/09-04:00:14.679224 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/01/09-04:00:14.679233 7faaa9fc5700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/01/09-04:00:14.688516 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/01/09-04:00:14.688531 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 3
+2020/01/09-04:15:14.665538 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000000/000000000000000000/checkpoints/d020360e-829f-4278-9e1d-06d1fef46f84
+2020/01/09-04:15:14.667730 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000000/000000000000000000/checkpoints/d020360e-829f-4278-9e1d-06d1fef46f84.tmp
+2020/01/09-04:15:14.669005 7faaa9fc5700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/01/09-04:15:14.669463 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:87] Hard Linking /000009.sst
+2020/01/09-04:15:14.669506 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000004
+2020/01/09-04:15:14.681199 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000013
+2020/01/09-04:15:14.686940 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/01/09-04:15:14.687187 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/01/09-04:15:14.687198 7faaa9fc5700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/01/09-04:15:14.697862 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/01/09-04:15:14.697881 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 3
+2020/01/09-04:30:14.664970 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000000/000000000000000000/checkpoints/a681f998-292e-4863-a158-53f5cc7349f9
+2020/01/09-04:30:14.665009 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000000/000000000000000000/checkpoints/a681f998-292e-4863-a158-53f5cc7349f9.tmp
+2020/01/09-04:30:14.665077 7faaa9fc5700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/01/09-04:30:14.665266 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:87] Hard Linking /000009.sst
+2020/01/09-04:30:14.665288 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000004
+2020/01/09-04:30:14.673838 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000013
+2020/01/09-04:30:14.678360 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/01/09-04:30:14.678577 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/01/09-04:30:14.678586 7faaa9fc5700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/01/09-04:30:14.682467 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/01/09-04:30:14.682483 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 3
+2020/01/09-05:00:19.003291 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000000/000000000000000000/checkpoints/20d4ee2c-16ae-48e6-b27f-791a10c935ee
+2020/01/09-05:00:19.005411 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000000/000000000000000000/checkpoints/20d4ee2c-16ae-48e6-b27f-791a10c935ee.tmp
+2020/01/09-05:00:19.007157 7faaa9fc5700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/01/09-05:00:19.011829 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:87] Hard Linking /000009.sst
+2020/01/09-05:00:19.011873 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000004
+2020/01/09-05:00:19.017818 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000013
+2020/01/09-05:00:19.026081 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/01/09-05:00:19.026294 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/01/09-05:00:19.026305 7faaa9fc5700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/01/09-05:00:19.036085 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/01/09-05:00:19.036127 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 3
+2020/01/09-05:15:18.997121 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:61] Started the snapshot process -- creating snapshot in directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000000/000000000000000000/checkpoints/4278fa32-b1b4-4f2d-b82d-a39bb079470b
+2020/01/09-05:15:18.997187 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:77] Snapshot process -- using temporary directory /pulsar/data/bookkeeper/ranges/ranges/000000000000000000/000000000000000000/000000000000000000/checkpoints/4278fa32-b1b4-4f2d-b82d-a39bb079470b.tmp
+2020/01/09-05:15:18.997267 7faaa9fc5700 [db/db_filesnapshot.cc:34] File Deletions Disabled
+2020/01/09-05:15:18.997476 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:87] Hard Linking /000009.sst
+2020/01/09-05:15:18.997506 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /MANIFEST-000004
+2020/01/09-05:15:19.013696 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:93] Copying /OPTIONS-000013
+2020/01/09-05:15:19.019919 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:99] Creating /CURRENT
+2020/01/09-05:15:19.020138 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:286] Number of log files 0
+2020/01/09-05:15:19.020148 7faaa9fc5700 [db/db_filesnapshot.cc:57] File Deletions Enabled
+2020/01/09-05:15:19.025891 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:121] Snapshot DONE. All is good
+2020/01/09-05:15:19.025921 7faaa9fc5700 [utilities/checkpoint/checkpoint_impl.cc:123] Snapshot sequence number: 3
+2020/01/09-05:29:40.886447 7faaaa7cd700 [db/db_impl_compaction_flush.cc:892] [default] Manual flush start.
+2020/01/09-05:29:40.886469 7faaaa7cd700 [db/db_impl_compaction_flush.cc:897] [default] Manual flush finished, status: OK
+2020/01/09-05:29:40.887188 7faaaa7cd700 [db/db_impl_compaction_flush.cc:892] [default] Manual flush start.
+2020/01/09-05:29:40.887212 7faaaa7cd700 [db/db_impl_compaction_flush.cc:897] [default] Manual flush finished, status: OK
+2020/01/09-05:29:40.890542 7faaaa7cd700 [db/db_impl.cc:252] Shutdown: canceling all background work
+2020/01/09-05:29:40.896707 7faaaa7cd700 [db/db_impl.cc:395] Shutdown complete
