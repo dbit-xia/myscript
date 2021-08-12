@@ -5,7 +5,7 @@
 mkdir /data/pgsql -p
 chown 1001 /data/pgsql
 
-docker run --rm  --name pgsql \
+docker run --name pgsql \
 -e POSTGRESQL_USERNAME=dbit \
 -e POSTGRESQL_PASSWORD=dbit \
 -p 5432:5432 \
