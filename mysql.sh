@@ -14,9 +14,9 @@ grant all on *.* to dbit@'localhost'
 #docker run --rm -e POSTGRESQL_PASSWORD=dbit -p 5432:5432 bitnami/postgresql:latest
 
 mkdir ~/data/mysql -p
-#chown 1001 /data/pgsql
+sudo chown 1001 ~/data/mysql
 
-docker run --name mysql \
+docker run --rm \
 -e ALLOW_EMPTY_PASSWORD=yes \
 -p 3306:3306 \
 -v /home/dbit/data/mysql:/bitnami/mysql/data \
