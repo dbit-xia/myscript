@@ -10,4 +10,5 @@ docker run --name pgsql \
 -e POSTGRESQL_PASSWORD=dbit \
 -p 5432:5432 \
 -v /home/dbit/data/pgsql:/bitnami/postgresql \
+--network=kong-net \
 bitnami/postgresql:latest
