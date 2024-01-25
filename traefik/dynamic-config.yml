@@ -1,0 +1,13 @@
+# dynamic-config.yml
+
+http:
+  routers:
+    myRouter:
+      rule: "Host(`127.0.0.1`) && PathPrefix(`/api3`)"
+      service: myService
+
+  services:
+    myService:
+      loadBalancer:
+        servers:
+          - url: "http://127.0.0.1:7071"

@@ -1,0 +1,31 @@
+# traefik.yml
+
+# 通用配置
+entryPoints:
+  web:
+    address: ":8080"
+
+accesslog: true
+log:
+  level: DEBUG
+
+# 详细的后端服务配置
+providers:
+  file:
+    filename: ./dynamic-config.yml
+    watch: true
+
+# 启用 Traefik 的 API，以便查看配置和统计信息
+api:
+  dashboard: true
+
+# 启用中间件，可以添加额外的功能，例如重定向、基本身份验证等
+middlewares:
+  myMiddleware:
+    redirectTo: https://example.com
+    regex: "^https://www.example.com"
+
+# 定义后端服务
+serversTransport:
+  insecureSkipVerify: true
+
