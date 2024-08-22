@@ -13,3 +13,6 @@
 !*.txt
 !.gitignore
 !*.npmrc
+!*.ini
+!*.toml
+!*.http

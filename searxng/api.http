@@ -1,0 +1,10 @@
+###
+POST http://43.132.130.142:8888/search
+Content-Type: application/x-www-form-urlencoded
+
+q=123&engines=google&format=json
+
+###
+GET http://43.132.130.142:8888/search?language=zh&format=json&engines=google&q=微盟最高股价
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+
