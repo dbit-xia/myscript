@@ -16,3 +16,4 @@
 !*.ini
 !*.toml
 !*.http
+!.editorconfig
