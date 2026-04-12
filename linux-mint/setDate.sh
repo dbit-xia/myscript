@@ -1,6 +1,6 @@
 #!/bin/bash
 # 保存当前时间
-sudo date #验证sudo权限
+sudo date || exit #验证sudo权限
 
 timedatectl set-ntp false
 
